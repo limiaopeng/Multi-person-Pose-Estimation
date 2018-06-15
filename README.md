@@ -7,7 +7,9 @@ We propose a new method for multi-person pose estimation which combines the trad
 ## Demo
 video
 ## Discussion
-Compare image
+
+![Teaser?](https://github.com/limiaopeng/Multi-person-Pose-Estimation/blob/master/readme/comparison.jpg)
+
 The main idea of this work is using a residual network to learn both the confidence maps of joints and the connection relationships between joints, and then take advantage of the body bounding box to parse the pose. Above figure shows some comparison result between ours, the top-down method by [Wei et al.](https://github.com/shihenw/convolutional-pose-machines-release) and the bottom-up method by [Cao et al.](https://github.com/ZheC/Realtime_Multi-Person_Pose_Estimation). In contrast to the top-down method, ﬁrstly, as shown in Figure (a-b), our method is more robust to the shift and the tightness of the body bounding boxes. Secondly, when two people are very close, as shown in Figure (c-d), the single-person pose estimator fails to determine which person should be annotated, but our method works well. Thirdly, our method performs network feed-forwarding only once, yielding less inference time. In contrast to the bottom-up method, our method handles disconnected joints well, and is more robust to truncated or heavily occluded joints (Figure (a)(c-d)). Besides, our method effectively avoids mistake propagation across different poses (Figure (b-c)(e)).
 
 ## Citation
