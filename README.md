@@ -11,7 +11,9 @@ We propose a new method for multi-person pose estimation which combines the trad
 
 You can click the images below to watch our video demo for a vivid and intuitive visualization of results.
 
-<a href="https://www.youtube.com/watch?v=J58hdvz7_SM" target="_blank"><img src="readme/demo.jpg" width="640" height="480" /></a>
+<p align="center">
+    <a href="https://www.youtube.com/watch?v=J58hdvz7_SM" target="_blank"><img src="readme/demo.jpg" width="640" height="480" /></a>
+</p>
 
 ## Discussion
 
